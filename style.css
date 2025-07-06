@@ -1,0 +1,14 @@
+.container{
+    width:700px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin:auto;
+    margin-top:20px;
+}
+#payments{
+    background-color: rgb(131, 128, 128);
+}
+textarea {
+    width:100%;
+}
+ 

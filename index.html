@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"  href="./style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+<title>hola</title>
+</head>
+<body>
+<div class="container">
+<div class="bg-light px-4 py-3 border-bottom">
+<div>
+  <h4>Payment form example </h4>
+  </div>
+</div>
+<div class="alert alert-danger" role="alert">
+  Some fields are missing 
+</div>
+  <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Card #</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-2">
+    <label for="cvc" class="form-label">CVC #</label>
+    <input type="password" class="form-control" id="cvc">
+  </div>
+    <div class="col-md-2">
+    <label for="amount" class="form-label">Amount</label>
+    <input type="number" class="form-control" id="amount">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress" class="form-label">First Name</label>
+   <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress2" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Post Code</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+   <div class="col-md-6">
+     <label  for="paymentCheck">
+       We accept:
+      </label>
+      <div class="col-md-6" id="payments">
+        <input class="" type="radio" id="masterCard">
+        <label for="masterCard"><i class="fa-brands fa-cc-mastercard"></i></label>
+
+        <input class="" type="radio" id="visa">
+         <label for="visa"><i class="fa-brands fa-cc-visa"></i></label>
+
+         <input class="" type="radio" id="amex">
+         <label for="amex"><i class="fa-brands fa-cc-amex"></i></label>
+
+         <input class="" type="radio" id="apple">
+         <label for="apple">
+          <i class="fa-brands fa-cc-apple-pay"></i>
+         </label>
+       </div>
+  </div>
+  <div class="col-md-6">
+      <label for="message">Message</label>
+    <textarea id="message" name="message"></textarea>
+    <p style="color:gray">Add any notes here.</p>
+  </div>
+
+  </form>
+  <div class="col-12 border-top px-4 py-3 w-100  d-flex justify-content-end gap-2">
+  
+    <button type="button" class="btn btn-secondary">Cancel </button>
+    <button type="button" class="btn btn-primary">Send</button>
+ 
+  </div>
+</div>
+</body>
+</html>
